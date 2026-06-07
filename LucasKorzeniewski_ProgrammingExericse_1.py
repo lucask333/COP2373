@@ -19,7 +19,7 @@ def sell_tickets():
     remaining_tickets = MAX_TICKETS
 
     # Store the total number of buyers.
-    total_buyers = 0
+    buyer_count = 0
 
     # Continue selling tickets until none remain.
     while remaining_tickets > 0:
@@ -45,7 +45,7 @@ def sell_tickets():
             )
 
             # Add one to the buyer count.
-            total_buyers = total_buyers + 1
+            buyer_count = buyer_count + 1
 
             # Display a confirmation message.
             print(
@@ -64,7 +64,7 @@ def sell_tickets():
     print("All tickets have been sold.")
 
     # Display the total number of buyers.
-    print(f"Total number of buyers: {total_buyers}")
+    print(f"Total number of buyers: {buyer_count}")
 
 
 # Call the function to start selling tickets.
