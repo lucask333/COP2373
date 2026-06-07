@@ -29,7 +29,7 @@ def sell_tickets():
 
         # Ask the user how many tickets they want to buy.
         tickets_requested = int(
-            input("How many tickets would you like to buy (1 - 4)? ")
+            input("Enter the amount of tickets you would like to purchase. (1 - 4)")
         )
 
         # Make sure the user enters a valid amount.
