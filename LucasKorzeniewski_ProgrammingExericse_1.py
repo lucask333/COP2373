@@ -1,5 +1,5 @@
 # Define the maximum number of tickets that can be sold.
-MAX_TICKETS = 20
+MAX_TICKETS = 10
 
 # Define the maximum number of tickets one buyer can purchase.
 MAX_PER_BUYER = 4
